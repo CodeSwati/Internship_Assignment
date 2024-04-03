@@ -2,10 +2,10 @@ import React from 'react'
 
 function PressRelease() {
   return (
-    <div className='mt-16'>
+    <div className='mt-24'>
       <div className='flex gap-6'>
-          <h1 className='font-semibold text-4xl'>Press Release</h1>
-          <h3 className='self-end font-medium underline underline-offset-4 text-sm'>View All</h3>
+          <h1 className='font-semibold text-5xl'>Press Releases</h1>
+          <h3 className='self-end font-medium underline underline-offset-4 text-lg'>View All</h3>
       </div>
 
       <div className='mt-14'>
@@ -22,12 +22,12 @@ function PressRelease() {
             date:"April 18, 2022"}].map((item,index)=>
             <div className='mt-10'>
               
-              <h3 className='font-semibold'>{item.date}</h3>
+              <h3 className='font-bold'>{item.date}</h3>
               <div className='flex justify-between mt-[9px]'>
-                <p className='text-sm '>{item.para}</p>
-                <p className='text-sm underline underline-offset-4'>READ MORE</p>
+                <p className='text-md '>{item.para}</p>
+                <p className='text-md underline underline-offset-4'>READ MORE</p>
               </div>
-              <hr className='mt-14 h-[1px] bg-zinc-400 border-0 '/>
+              <hr className='mt-14 h-[1px] bg-zinc-600 border-0 '/>
             </div>
             )}    
          </div>

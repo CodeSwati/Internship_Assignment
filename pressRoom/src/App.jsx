@@ -6,17 +6,21 @@ import Main from './components/Main'
 import PressRelease from './components/PressRelease'
 import InNews from './components/InNews'
 import Social from './components/Social'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
  
 
   return (
-    <div className='m-[5rem] font-sans'>
+    <div className='m-[7rem] font-sans'>
        <Navbar/>
        <Main/>
        <PressRelease/>
        <InNews/>
        <Social/>
+       <Contact/>
+       <Footer/>
     </div>
   )
 }

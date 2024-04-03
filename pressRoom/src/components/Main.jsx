@@ -3,7 +3,7 @@ import React from 'react'
 function Main() {
   return (
     <div className='mt-8'>
-        <p className='w-[80%] text-base'>
+        <p className='w-[80%] text-xl'>
             Wix is leading the way with a cloud-based development platform for users worldwide. Wix was founded on the belief that the internet
         should be accessible to everyone to develop, create and contribute. Through free and premium subscriptions, 
         Wix empowers millions of businesses, organizations,artists and individuals to take their businesses, brands 
