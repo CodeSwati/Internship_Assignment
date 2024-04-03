@@ -4,6 +4,8 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
 import PressRelease from './components/PressRelease'
+import InNews from './components/InNews'
+import Social from './components/Social'
 
 function App() {
  
@@ -13,6 +15,8 @@ function App() {
        <Navbar/>
        <Main/>
        <PressRelease/>
+       <InNews/>
+       <Social/>
     </div>
   )
 }
