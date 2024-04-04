@@ -27,7 +27,8 @@ function InNews() {
               <h1 className='font-bold'>{item.head}</h1>
               <div className='flex justify-between '>
                 <p className='text-md capitalize'>{item.para}</p>
-                <p className='text-md underline underline-offset-4'>READ MORE</p>
+                <p className='cursor-pointer text-md underline underline-offset-4 hover:text-blue-700'>
+                  READ MORE</p>
               </div>
               <hr className='mt-14 h-[1px] bg-zinc-600 border-0 '/>
             </div>

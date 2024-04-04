@@ -41,8 +41,8 @@ function Social(){
                 <div className="flex w-full mt-10">
                     {[<SiWix />, <FaFacebookSquare />,<FaInstagram />,<FaYoutube />,<FaTwitter />
                     ].map((item,idx)=>
-                      <div className="flex items-center justify-center h-48 w-1/5 
-                      border-[1px]  border-zinc-600 ">
+                      <div className="flex items-center justify-center h-48 w-1/5 cursor-pointer
+                      border-[1px]  border-zinc-600 hover:bg-blue-700 hover:border-blue-700 hover:text-white ">
                         <div className="text-5xl ">{item}</div>
                       </div>
                     )}
