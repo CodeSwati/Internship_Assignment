@@ -13,7 +13,7 @@ function App() {
  
 
   return (
-    <div className='m-[7rem] font-sans'>
+    <div className='m-[1rem] md:m-[3rem] lg:m-[7rem] font-sans'>
        <Navbar/>
        <Main/>
        <PressRelease/>
